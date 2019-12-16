@@ -10,15 +10,30 @@ const scissors_div = document.getElementById("s");
 
 
 function computerPlay() {
-    const options = ["Rock", "Paper", "Scissors"];
+    const options = ["rock", "paper", "scissors"];
     const randomIndex = Math.floor(Math.random() * options.length);
     return options[randomIndex];
 }
 
 function game(playerSelection) {
     const computerSelection = computerPlay();
-    console.log("computerSelection == " + computerSelection)
-    console.log("playerSelection == " + playerSelection)
+    switch (playerSelection + computerSelection) {
+        case "rockscissors":
+        case "paperrock":
+        case "scissorspaper":
+            console.log("USER WINS");
+            break;
+        case "rockaper":
+        case "paperscissors":
+        case "scissorsrock":
+            console.log("USER LOSES!");
+            break;
+        case "rockrock":
+        case "paperpaper":
+        case "scissorsscissors":
+            console.log("ITS A DRAW!");
+            break;
+    }
 }
 
 
