@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('https://pxt.azureedge.net/blob/68f66c3ddc3acfc4c53157abf92eace202d46db2/static/courses/csintro/conditionals/rock-paper-scissors-items.png');
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: black;
+}
+
+header h1 {
+    color: silver;
+}
+
+.h1class {
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.scoreboard {
+    margin: 20px auto;
+    border: 3px solid black;
+    border-radius: 6px;
+    text-align: center;
+    width: 200px;
+    color: blue;
+    font-size: 50px;
+    padding: 20px 16px;
+    position: relative;
+}
+
+.badge {
+    background: red;
+    font-size: 20px;
+    padding: 2px 15px;
+    border: 1px solid black;
+}
+
+#user-badge {
+    position: absolute;
+    top: 38px;
+    left: -40px;
+    
+}
+
+#computer-badge {
+    position: absolute;
+    top: 38px;
+    right: -45px;
+}
+
+.results {
+    font-size: 45px;
+}
+
+.results p {
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+
+.container-choices {
+    display: flex;
+    justify-content: center;
+}
+
+.choice {
+    margin: 20px;
+    padding: 20px;
+    border: 3px white solid;
+    border-radius: 50%;
+    background-color: white;
+    
+}
+
+.h2heading {
+    text-align: center;
+    color: blue;
+    margin-top: 50px;
+}
+
+
+
+
+

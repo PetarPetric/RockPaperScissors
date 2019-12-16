@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Rock Paper Scissors</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="stylesheets.css">
+  <title>Rock Paper Scissors Game</title>
 </head>
 <body>
-  <h1>in here i will work on my RPS project</h1>  
+<header>
+  <h1 class="h1class">Welcome to Petar's Rock Paper Scissors game!</h1>
+</header>
+  <div class="scoreboard">
+
+    <div id="user-badge" class="badge">user</div>
+    <div id="computer-badge" class="badge">PC</div>
+
+    <span id="user-score" >0</span>:<span id="computer-score" >0</span>
+
+  </div>
+
+  <div class="results">
+    <p>Paper beats Rock.You WIN!</p>
+  </div>
+<div class="container-choices">
+
+  <div class="choice"> <img src="images/paper.jpg" alt="paper" id="p"></div>
+  <div class="choice"> <img src="images/rock_1.jpg" alt="rock" id="r"></div>
+  <div class="choice"> <img src="images/scissors_1.jpg" alt="scissors_1" id="s"></div>
+
+</div>
+
+<h2 class="h2heading">Take your Choice. Lets see your skills.</h2>
+
+
+
+<script src="app.js"></script>
 </body>
 </html>
