@@ -42,7 +42,7 @@ function game(playerSelection) {
         case "scissorspaper":
             win(playerSelection, computerSelection);
             break;
-        case "rockaper":
+        case "rockpaper":
         case "paperscissors":
         case "scissorsrock":
             lose(playerSelection, computerSelection);
